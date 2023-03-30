@@ -21,37 +21,37 @@
 <body>
     <nav class="nav">
 
-        <div class="wrapper">
+    <div class="wrapper">
 
-            <div class="nav__logo">
-                <a href="#home"><img src="./dist/img/logo.jpg" alt="Logo Firmy Klima Świat" class="nav__logo-img"></a>
-            </div>
-
-            <button class="hamburger hamburger--spin" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
-
-
-
-
-            <div class="nav__desktop">
-                <div class="nav__desktop-item"><a href="#about-us" class="nav__desktop-link">O nas</a></div>
-                <div class="nav__desktop-item"><a href="#offer" class="nav__desktop-link">Oferta</a></div>
-                <div class="nav__desktop-item"><a href="#reviews" class="nav__desktop-link">Opinie</a></div>
-                <div class="nav__desktop-item"><a href="#contact" class="nav__desktop-link">Kontakt</a></div>
-            </div>
-
+        <div class="nav__logo">
+            <a href="#home"><img src="./dist/img/logo.jpg" alt="Logo Firmy Klima Świat" class="nav__logo-img"></a>
         </div>
 
-        <div class="nav__mobile">
-            <div class="nav__mobile-item"><a href="#about-us" class="nav__mobile-link">O nas</a> </div>
-            <div class="nav__mobile-item"><a href="#offer" class="nav__mobile-link">Oferta</a></div>
-            <div class="nav__mobile-item"><a href="#reviews" class="nav__mobile-link">Opinie</a></div>
-            <div class="nav__mobile-item"><a href="#contact" class="nav__mobile-link">Kontakt</a></div>
+        <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>  
+
+
+
+
+        <div class="nav__desktop">
+            <div class="nav__desktop-item"><a href="#about-us" class="nav__desktop-link">O nas</a></div>
+            <div class="nav__desktop-item"><a href="#offer" class="nav__desktop-link">Oferta</a></div>
+            <div class="nav__desktop-item"><a href="#reviews" class="nav__desktop-link">Opinie</a></div>
+            <div class="nav__desktop-item"><a href="#contact" class="nav__desktop-link">Kontakt</a></div>
         </div>
-    </nav>
+
+    </div>
+    
+    <div class="nav__mobile">
+        <div class="nav__mobile-item"><a href="#about-us" class="nav__mobile-link">O nas</a> </div>
+        <div class="nav__mobile-item"><a href="#offer" class="nav__mobile-link">Oferta</a></div>
+        <div class="nav__mobile-item"><a href="#reviews" class="nav__mobile-link">Opinie</a></div>
+        <div class="nav__mobile-item"><a href="#contact" class="nav__mobile-link">Kontakt</a></div>
+    </div>
+</nav>
 
     <header class="header" id="home">
         <div class="header__text">
@@ -233,6 +233,25 @@
         </div>
 
         <div data-aos="fade-up">
+            <section class="area">
+                <h3 class="section-title">Lokalizacja</h3>
+                <div class="underline"></div>
+                <p class="area__title">Gdzie wykonujemy nasze usługi?</p>
+                <div class="area__container">
+                    <p class="area__city"><i class="fa-solid fa-location-dot"></i>Zamość</p>
+                    <p class="area__city"><i class="fa-solid fa-location-dot"></i>Tomaszów Lubelski</p>
+                    <p class="area__city"><i class="fa-solid fa-location-dot"></i>Hrubieszów</p>
+                    <p class="area__city"><i class="fa-solid fa-location-dot"></i>Krasnystaw</p>
+                    <p class="area__city"><i class="fa-solid fa-location-dot"></i>Chełm</p>
+                    <p class="area__city"><i class="fa-solid fa-location-dot"></i>Szczebrzeszyn</p>
+
+                </div>
+            </section>
+
+
+        </div>
+
+        <div data-aos="fade-up">
             <section class="counter">
                 <div class="counter__box">
 
@@ -293,17 +312,21 @@
                             </div>
                             <div class="reviews__box-info">
                                 <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
-                                <p class="reviews__box-text">Polecam firmę z całego serca! Praca wykonana perfekcyjnie!
-                                    Szybko,
-                                    bezproblemowo. Kontakt z Panem właścicielem super, czas oczekiwania na montaż
-                                    krotki, ze
-                                    względu na małe dziecko w domu zależało nam na czasie i zostało to uwzględnione. A
-                                    co
-                                    najważniejsze! - po skończonym montażu ani śladu! Dom wysprzatany, wyodkurzany. To
-                                    zapamietam :) na koniec niespodziewany rabat, czym jesteśmy mile zaskoczeni! Polecam
-                                    serdecznie !</p>
+                                <p class="reviews__box-text">Firma ,,klima świat,, zakładała u mnie klimatyzację z
+                                    funkcją
+                                    grzania. Serdecznie polecam usługi u tego Pana. Bardzo sympatyczny, czas oczekiwania
+                                    bardzo
+                                    niedługi, zarówno czas montażu przebiegł ekspresowo. Po skończonej pracy firma
+                                    wysprzatala
+                                    porządnie dom, nie zostawiając przy tym żadnego znaku po montażu. Polecam
+                                    serdecznie!!!
+                                    Cena
+                                    za usługę również adekwatna, a przy rozliczeniu rachunku niespodziewana zniżka:)
+                                    dziękujemy
+                                    bardzo ! Jesteśmy z mężem bardzo zadowoleni. Pozdrawiam Angelika :)</p>
                             </div>
                         </div>
+
                         <div class="reviews__box">
                             <div class="reviews__box-img">
                                 <img src="./dist/img/review1.png" alt="Domyślne szare zdjęcie użytkownika">
@@ -321,22 +344,17 @@
                             </div>
                             <div class="reviews__box-info">
                                 <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
-                                <p class="reviews__box-text">Firma ,,klima świat,, zakładała u mnie klimatyzację z
-                                    funkcją
-                                    grzania. Serdecznie polecam usługi u tego Pana. Bardzo sympatyczny, czas oczekiwania
-                                    bardzo
-                                    niedługi, zarówno czas montażu przebiegł ekspresowo. Po skończonej pracy firma
-                                    wysprzatala
-                                    porządnie dom, nie zostawiając przy tym żadnego znaku po montażu. Polecam
-                                    serdecznie!!!
-                                    Cena
-                                    za usługę również adekwatna, a przy rozliczeniu rachunku niespodziewana zniżka:)
-                                    dziękujemy
-                                    bardzo ! Jesteśmy z mężem bardzo zadowoleni. Pozdrawiam Angelika :)</p>
+                                <p class="reviews__box-text">Polecam firmę z całego serca! Praca wykonana perfekcyjnie!
+                                    Szybko,
+                                    bezproblemowo. Kontakt z Panem właścicielem super, czas oczekiwania na montaż
+                                    krotki, ze
+                                    względu na małe dziecko w domu zależało nam na czasie i zostało to uwzględnione. A
+                                    co
+                                    najważniejsze! - po skończonym montażu ani śladu! Dom wysprzatany, wyodkurzany. To
+                                    zapamietam :) na koniec niespodziewany rabat, czym jesteśmy mile zaskoczeni! Polecam
+                                    serdecznie !</p>
                             </div>
                         </div>
-
-
 
                         <div class="reviews__box">
                             <div class="reviews__box-img">
@@ -348,6 +366,25 @@
                                     za poziom jaki prezentuje. Serdecznie polecam.</p>
                             </div>
                         </div>
+                        <div class="reviews__box">
+                            <div class="reviews__box-img">
+                                <img src="./dist/img/review1.png" alt="Domyślne szare zdjęcie użytkownika">
+                            </div>
+                            <div class="reviews__box-info">
+                                <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                                <p class="reviews__box-text">Polecam firmę z całego serca! Praca wykonana perfekcyjnie!
+                                    Szybko,
+                                    bezproblemowo. Kontakt z Panem właścicielem super, czas oczekiwania na montaż
+                                    krotki, ze
+                                    względu na małe dziecko w domu zależało nam na czasie i zostało to uwzględnione. A
+                                    co
+                                    najważniejsze! - po skończonym montażu ani śladu! Dom wysprzatany, wyodkurzany. To
+                                    zapamietam :) na koniec niespodziewany rabat, czym jesteśmy mile zaskoczeni! Polecam
+                                    serdecznie !</p>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
@@ -388,11 +425,11 @@
     </main>
 
     <footer class="footer">
-        <p class="footer__p"> <i class="fa-sharp fa-solid fa-snowflake"></i> Klima Świat <span
-                class="current-year"></span> | Web Design pawliszakWeb</p>
-        <!-- <p class="footer__p footer__p-author">Web Design | pawliszakWeb</p> -->
+    <p class="footer__p"> <i class="fa-sharp fa-solid fa-snowflake"></i> Klima Świat <span
+            class="current-year"></span> | Web Design pawliszakWeb</p>
+    <!-- <p class="footer__p footer__p-author">Web Design | pawliszakWeb</p> -->
 
-    </footer>
+</footer>
 
 
 
